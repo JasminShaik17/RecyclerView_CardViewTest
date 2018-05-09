@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
                     LinearLayoutManager.VERTICAL,
                         false    );
         rview.setLayoutManager(lManager);
+        rview.setAdapter(new MyAdapter(this));
     }
 }
